@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Frontend Coding Test</title>
+		<meta name="viewprot" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link type="text/css" rel="stylesheet" href="../css/style.css" />
+	</head>
+	<body>	
+		<div id="headwrap">
+			<div class="head">
+				<div class="logo">PT Karya Garda Medica</div>
+			</div>
+		</div>
+		<div id="content">
+			<h1><span class="red">Tabbed</span> content</h1>
+			<p>Gunakan HTML, CSS dan Js dalam membuat tabbed content, setiap tab memiliki konten yang berbeda dengan konten yang tiap di klik dapat mengarah ke halaman berbeda</p>
+
+			<div class="picture">
+				<img src="../img/tabbed_content.png" />
+				<p>Contoh Tabbed Content.</p>
+			</div>
+
+			<div id="container">
+				<div class="tabbed">
+					<button onclick="toppingCake('gingerbread')">Gingerbread</button>
+					<button onclick="toppingCake('chocolate')">Chocolate</button>
+					<button onclick="toppingCake('cheesecake')">Cheesecake</button>
+				</div>
+
+				<div id="gingerbread" class="content">
+					<h2>Gingerbread</h2>
+					<h4>
+						Gingerbread muffin gummies gingerbread macaroon. Lollipop candy applicake toffee faworki. Bear claw topping jelly toffee toffee powder tiramisu candy chupa chups. Chupa chups dragee icing applicake chupa chups dessert. Croissant jelly faworki marzipan tootsie roll marshmallow. Marshmallow toffee sweet roll fruitcake.
+					</h4>
+				</div>
+				<div id="chocolate" class="content">
+					<h2>Chocolate</h2>
+					<h4> 
+						Chocolate faworki croissant brownie halvah macaroon gummi bears wypas. Chupa chups icing gummies pudding dessert carrot cake. Cupcake jelly beans sweet roll icing ice cream apple pie tootsie roll gummi bears marzipan. Brownie gummies chupa chups pie. Cupcake jujubes topping.
+					</h4>
+				</div>
+				<div id="cheesecake" class="content">
+					<h2>Cheesecake</h2>
+						<h4>
+							Cheesecake jelly beans ice cream lollipop sweet pastry. Chupa chups dessert cheesecake sesame snaps. Cookie ice cream candy canes pastry cake muffin. Icing chocolate sweet gummi bears powder oat cake oat cake lemon drops.
+						</h4>
+				</div>
+			</div>
+		</div>
+		<script src="../js/tabbed.js"></script>
+	</body>
+</html>

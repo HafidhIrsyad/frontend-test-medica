@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Frontend Coding Test</title>
+	<meta name="viewprot" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link type="text/css" rel="stylesheet" href="../css/style.css" />
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+	<div id="headwrap">
+		<div class="head">
+			<div class="logo">PT Karya Garda Medica</div>
+		</div>
+	</div>
+
+	<div id="content">
+		<h1><span class="red">Image</span> Rotator</h1>
+
+		<p>Gunakan 3 gambar di bawah dan lakukan rotasi pada gambar tersebut dengan rotator selama 3 detik. Jangan lupa letakkan deskripsi berupa title dan deskripsi gambar.</p>
+		<p>Nilai plus jika bisa kelihatan seperti animasi</p>
+
+		<h2>Rotator Image</h2>
+		<br />
+
+		<div id="rotator">
+			<div class="sliders-container">
+				<div class="slider">
+					<img src="../img/kat_1.jpg">
+					<div class="text">
+						<h4>Goku</h4>
+						<p>Ultra insting Goku</p>
+					</div>
+				</div>
+			
+				<div class="slider">
+					<img src="../img/kat_2.jpg">
+					<div class="text">
+						<h4>Monkey D Luffy</h4>
+						<p>Haki gear 5?.</p>
+					</div>
+				</div>
+			
+				<div class="slider">
+					<img src="../img/kat_3.jpg">
+					<div class="text">
+						<h4>Naruto</h4>
+						<p>Sage Mode.</p>
+					</div>
+				</div>
+				<div class="slider">
+					<img src="../img/kat_4.jpg">
+					<div class="text">
+						<h4>Roronoa Zoro</h4>
+						<p>Where am I?.</p>
+					</div>
+				</div>
+				<div class="container">
+					<button onclick="nextPrev(-1)">&#10094;</button>
+					<button onclick="nextPrev(1)">&#10095;</button>
+				</div>
+			</div>
+			<br>
+		</div>
+	</div>
+
+	<script src="../js/ImageRotator.js"></script>
+</body>
+</html>
